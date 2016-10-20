@@ -5,15 +5,15 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 The critical minimum", "01 The critical minimum", "{7C5F324E-C9AC-4FC5-8B6D-5C21B20BAD6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "01\UnderstandingSpring.csproj", "{6B32304D-F1C1-4FAC-9C9B-4CE2C2A5A217}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "01 The critical minimum\UnderstandingSpring.csproj", "{6B32304D-F1C1-4FAC-9C9B-4CE2C2A5A217}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Property Injection", "02 Property Injection", "{C1446D1B-A2CB-483A-9153-ADC054BD54CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "02\UnderstandingSpring.csproj", "{25704962-B64B-4514-92A5-1A8943A93FB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "02 Property Injection\UnderstandingSpring.csproj", "{25704962-B64B-4514-92A5-1A8943A93FB0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 more blabla", "03 more blabla", "{1801291A-8D07-40F9-B1EA-01747DAF7171}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Constructor Injection", "03 Constructor Injection", "{1801291A-8D07-40F9-B1EA-01747DAF7171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "03\UnderstandingSpring.csproj", "{AD459BEE-D196-4EB0-85A0-2277A39CBD91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "03 Constructor Injection\UnderstandingSpring.csproj", "{AD459BEE-D196-4EB0-85A0-2277A39CBD91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

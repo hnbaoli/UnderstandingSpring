@@ -32,6 +32,11 @@ namespace UnderstandingSpring
         static void Main(string[] args)
         {
             IApplicationContext bootstrapContext = ContextRegistry.GetContext();
+
+            //alternatively the bootstrapContext can be created with a section in the App.Config file
+            //IApplicationContext bootstrapContext = new XmlApplicationContext("Application-Config.xml");
+
+
             IBusinessLogicLayer bl = bootstrapContext.GetObject("BL") as IBusinessLogicLayer;
             bl?.ValidateCustomer();
 
