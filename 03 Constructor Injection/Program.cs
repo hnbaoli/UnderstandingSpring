@@ -6,14 +6,16 @@ namespace UnderstandingSpring
 {
     public class CustomerBusinessLogic : IBusinessLogicLayer
     {
-        public CustomerBusinessLogic()
+        private IRepository _customerRepo;
+
+        public CustomerBusinessLogic(IRepository customerRepo)
         {
+             _customerRepo = customerRepo;
+
             Console.WriteLine($"Constructor {nameof(CustomerBusinessLogic)} called");
         }
 
-        public IRepository CustomerRepo { get; set; }
-
-        public void InitViaIOC()
+      public void InitViaIOC()
         {
             Console.WriteLine($"InitViaIOC {nameof(CustomerBusinessLogic)}");
         }
@@ -21,7 +23,7 @@ namespace UnderstandingSpring
         public void ValidateCustomer()
         {
             Console.WriteLine("ValidateCustomer Called");
-            CustomerRepo.DoSomething();
+            _customerRepo.DoSomething();
             Console.WriteLine($"Validating the customer");
         }
     }

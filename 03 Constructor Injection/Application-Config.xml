@@ -7,15 +7,17 @@
           type="UnderstandingSpring.CustomerRepository,UnderstandingSpring"
           init-method="InitViaIOC"
           singleton="false" >
-    
+
   </object>
 
 
   <object id="BL"
           type="UnderstandingSpring.CustomerBusinessLogic,UnderstandingSpring"
           init-method="InitViaIOC"
-          singleton="false" >
-    <property name="CustomerRepo" ref="CustomerRepo"></property>
+          singleton="false">
+
+    <constructor-arg ref="CustomerRepo"/>
+
   </object>
 
 
