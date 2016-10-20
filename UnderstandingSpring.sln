@@ -7,17 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 The critical minimum", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "01 The critical minimum\UnderstandingSpring.csproj", "{6B32304D-F1C1-4FAC-9C9B-4CE2C2A5A217}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 a Property Injection", "02 a Property Injection", "{C1446D1B-A2CB-483A-9153-ADC054BD54CC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Property Injection", "02 Property Injection", "{C1446D1B-A2CB-483A-9153-ADC054BD54CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "02 a Property Injection\UnderstandingSpring.csproj", "{25704962-B64B-4514-92A5-1A8943A93FB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "02 Property Injection\UnderstandingSpring.csproj", "{25704962-B64B-4514-92A5-1A8943A93FB0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Constructor Injection", "03 Constructor Injection", "{1801291A-8D07-40F9-B1EA-01747DAF7171}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "03 Constructor Injection\UnderstandingSpring.csproj", "{AD459BEE-D196-4EB0-85A0-2277A39CBD91}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 b Split config files over multiple files", "02 b Split config files over multiple files", "{8904B586-56E2-452B-88D3-A9827C6A2A85}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Split config files over multiple files", "05 Split config files over multiple files", "{8904B586-56E2-452B-88D3-A9827C6A2A85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "02 b Split config files over multiple files\UnderstandingSpring.csproj", "{A03BAD9E-47D0-4D3C-B1B7-F362E4180DB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "05 Split config files over multiple files\UnderstandingSpring.csproj", "{A03BAD9E-47D0-4D3C-B1B7-F362E4180DB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Creation via instance factory method", "04 Creation via instance factory method", "{28817B1F-897A-49C3-9DF7-7807A35FE3FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingSpring", "04 Creation via instance factory method\UnderstandingSpring.csproj", "{B5DFD56A-AED7-4428-A6E9-6C6FEEB9585E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{A03BAD9E-47D0-4D3C-B1B7-F362E4180DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A03BAD9E-47D0-4D3C-B1B7-F362E4180DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A03BAD9E-47D0-4D3C-B1B7-F362E4180DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DFD56A-AED7-4428-A6E9-6C6FEEB9585E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DFD56A-AED7-4428-A6E9-6C6FEEB9585E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DFD56A-AED7-4428-A6E9-6C6FEEB9585E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DFD56A-AED7-4428-A6E9-6C6FEEB9585E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +58,6 @@ Global
 		{25704962-B64B-4514-92A5-1A8943A93FB0} = {C1446D1B-A2CB-483A-9153-ADC054BD54CC}
 		{AD459BEE-D196-4EB0-85A0-2277A39CBD91} = {1801291A-8D07-40F9-B1EA-01747DAF7171}
 		{A03BAD9E-47D0-4D3C-B1B7-F362E4180DB3} = {8904B586-56E2-452B-88D3-A9827C6A2A85}
+		{B5DFD56A-AED7-4428-A6E9-6C6FEEB9585E} = {28817B1F-897A-49C3-9DF7-7807A35FE3FA}
 	EndGlobalSection
 EndGlobal

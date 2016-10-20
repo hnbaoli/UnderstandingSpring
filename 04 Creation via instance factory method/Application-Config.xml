@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.springframework.net http://www.springframework.net/xsd/spring-objects.xsd">
+
+  <object id ="MyFactoryObject" singleton="false"
+          type="UnderstandingSpring.MyFactory, UnderstandingSpring" >
+  </object>
+  
+  <object id="BL"
+          factory-object="MyFactoryObject"
+          factory-method="CreateInstance"
+          init-method="InitViaIOC"
+          singleton="false" >
+ </object>
+
+
+</objects>
