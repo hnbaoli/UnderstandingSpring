@@ -11,11 +11,24 @@ namespace UnderstandingSpring
             Console.WriteLine($"Constructor {nameof(CustomerBusinessLogic)} called");
         }
 
-        public IRepository CustomerRepo { get; set; }
+        private IRepository _customerRepo;
+        public IRepository CustomerRepo {
+            get
+            {
+                return _customerRepo;
+                ;
+            }
+            set
+            {
+                _customerRepo = value;
+                Console.WriteLine($"In {nameof(CustomerBusinessLogic)} - Customer repository set via spring DI");
+            }
+            
+        }
 
         public void InitViaIOC()
         {
-            Console.WriteLine($"InitViaIOC {nameof(CustomerBusinessLogic)}");
+            Console.WriteLine($"InitViaIOC {nameof(CustomerBusinessLogic)} - is called after all deps are wired up");
         }
 
         public void ValidateCustomer()
